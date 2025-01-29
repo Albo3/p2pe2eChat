@@ -1,0 +1,24 @@
+# IDE settings
+.vscode/
+
+# Environment variables
+.env
+*.local
+
+# Database files
+/db/
+app.db
+app.db-shm
+app.db-wal
+
+# Dependencies
+/node_modules/
+
+# Repomix output files
+repomix-output.md
+repomix-output.txt
+repomix.config.json
+
+# Production scripts
+/prod.sh
+/git.md

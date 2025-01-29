@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "lib": [
+            "deno.window",
+            "dom"
+        ],
+        "strict": true
+    },
+    "imports": {
+        "hono": "https://deno.land/x/hono@v3.11.7/mod.ts",
+        "hono/": "https://deno.land/x/hono@v3.11.7/"
+    },
+    "tasks": {
+        "dev": "deno run --watch --allow-net --allow-read --allow-env src/main.ts"
+    },
+    "lint": {
+        "files": {
+            "include": [
+                "src/"
+            ]
+        }
+    }
+}

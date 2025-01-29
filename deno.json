@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "deno.window",
+            "dom",
+            "dom.iterable",
+            "dom.asynciterable",
+            "deno.ns"
+        ],
+        "strict": true
+    },
+    "imports": {
+        "hono": "npm:hono@4",
+        "hono/": "npm:hono@4/",
+        "@db/sqlite": "jsr:@db/sqlite@0.12"
+    },
+    "tasks": {
+        "dev": "deno run --watch --allow-net --allow-read --allow-env --allow-write main.ts"
+    },
+    "nodeModulesDir": "auto",
+    "lint": {
+        "files": {
+            "include": [
+                "src/"
+            ]
+        }
+    },
+    "types": [
+        "./types.d.ts"
+    ]
+}
