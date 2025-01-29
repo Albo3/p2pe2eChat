@@ -22,3 +22,4 @@ repomix.config.json
 # Production scripts
 /prod.sh
 /git.md
+.prettierrc
